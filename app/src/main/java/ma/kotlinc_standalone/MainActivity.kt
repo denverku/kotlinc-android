@@ -113,7 +113,7 @@ class MainActivity : Activity() {
 
         runOnUiThread {
             logs.text = collector.toString()
-            Toast.makeText(this, "Done, check $arguments", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Done, check $arguments $args", Toast.LENGTH_SHORT).show()
         }
     }
 
